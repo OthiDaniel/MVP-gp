@@ -4,9 +4,7 @@ Dundaiing is an app that lets users post images and videos promoting specific ev
 
 ## Author name
 
-Daniel Ogonjo
-Alex Ogola
-Jonah Kyulu
+Daniel Ogonjo, Alex Ogola & Jonah Kyulu
 
 ## Project description
 
