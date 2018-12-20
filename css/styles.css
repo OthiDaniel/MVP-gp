@@ -1,67 +1,46 @@
-#header {
-  min-height: 400px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  margin: 0 auto;
-  background-image: url('../images/party.jpg');
-  background-color: black;
-  color: #ffffff;
-}
 
-#header h1 {
-  margin-top: 90px;
-  font-size: 96px;
-  font-family: 'Satisfy', cursive;
-}
-
-#footer {
-  min-height: 300px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  text-align: center;
-  margin: 0 auto;
-  background-color: black;
-  color: #ffffff;
-}
-
-#promoterDisplay {
-  text-align: center;
-}
-
-#features {
-  background-image: url('../images/header-image.jpg');
-  min-height: 500px;
-  padding-top: 80px;
-  color: #ffffff;
-
-}
-
-.centerText {
-  text-align: center;
-}
-.divpadding {
-  padding-bottom: 60px;
-  padding-top: 60px;
-}
 body {
-  font-family: "Times New Roman", Times, serif;
-  background-color: #f2f2f2;
+	background-color: #c7c5c4;
 }
 
-* {
-  box-sizing: border-box
+#messages {
+
 }
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #ffffff;
+li a{
+	text-decoration: none;
+	color: yellow-green;
+	line-height: 50px
+	padding-right: 2px;
+	display: block;
 }
+ul li ul li {
+	display:none;
+}
+
+.hidecomments {
+		display:none;
+}
+.hidecomments2 {
+		display:none;
+}
+
+.slidedown {
+	font-size: 35px
+	
+}
+.slidedown2 {
+	font-size: 35px
+	
+}
+
+h1 {
+	padding-top: 140px;
+	position:relative;
+	right: 400px;
+	margin:20px;
+}
+<<<<<<< HEAD
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -71,122 +50,131 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+=======
+#navigation{
+	font-size: 20px;
+>>>>>>> 95b1ed04a2a3b884639de20451382eb6f351b786
+}
+#navigation ul li{
+	list-style-type: none;
+	width: 150px;
+	float: left;
+	color:gold;
+	font-size: 30px;
 }
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
+
+.box {
+	 float: left;
+	 list-style-type: none;
+	 border: 2px solid silver;
+	 background-color:#54013e;
+	 padding-right:792px;
+	}
+.line {
+	border-left: 1397px solid #133D9A;
+    height: 2px;
 }
 
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+.subline {
+	border-left: 1397px solid grey;
+    height: 1px;
+
 }
 
-/* Set a style for all buttons */
-button {
-  background-color: #FF4500;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+.feedbox {
+	 border: 2px solid silver;
+	 right:400px;
+	 float: right;
+	 background-color: white;
+	 width: 1400px;
 }
 
-button:hover {
-  opacity: 1;
+#online{
+	font-size: 40px;
+	padding-top: 80px;
+	margin:20px;
 }
 
-/* Add padding to container elements */
-.container {
-  padding: 16px;
+
+	
+#online {
+
+	float: left;
+}
+#feed {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	position: relative;
+	left:400px;
+}
+#messageicon {
+	position: relative;
+	left: 1550px;
+}
+#notificationicon {
+	position: relative;
+	left: 1200px;
 }
 
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+#settings {
+	position: relative;
+	left: 1120px;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
-}
 
-.timelineContainer {
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  border-bottom: 1px solid #999;
-  border-right: 1px solid #999;
-  box-shadow: 0 1px 1px #cccccc;
-  font-size: 22px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 14px;
-}
 
-.timelineBackground {
-  background-color: #f2f2f2;
-}
 
-.eventTimeline {
-  display: none;
-  padding-top: 24px;
-  padding-bottom: 14px;
-}
 
-.timelineBorder {
-  width: 80%;
-  margin: 0 auto;
-  min-height: 500px;
-  background-color: #ffffff;
-  margin-top: 14px;
-}
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #000000;
-  overflow: hidden;
-}
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+.main{
+	width: 100%;
+	}
+.search{
+	margin: 0;
+	padding: 5px 10px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	border: 1px solid #00763;
+	border-right: 0;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+	font-style: italic;
+	height: 20px;
+	}
+.button{
+	padding: 5px 5px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	text-shadow: 0 0 1px #000;
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	border-right: 0;
+	background: linear-gradient(#00adee,#0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	position: absolute;
+	height: 32px;
+	border: 1px solid #00763;
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #FF4500;
-  color: white;
-}
-
-.topnav input[type=text] {
-  float: right;
-  padding: 8px;
-  border: none;
-  padding: 15px;
-  margin: 0 0 0 0;
-}
-
-.topnavright {
-  float: right;
-  text-align: center;
+	}
+.button:hover{
+	background: linear-gradient(#0095cc,#00678e);
+	}
+.search:focus,.button:focus{
+	outline:none;
+	}
+#search-box{
+	text-align: center;
+	margin-top: 50px;
+	margin-left: -75px
+	}
+#searchposition {
+	position:relative;
+	right:400px;
 }
 
 .hidecomments {
