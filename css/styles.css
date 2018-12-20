@@ -66,7 +66,7 @@ input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -187,4 +187,73 @@ button:hover {
 .topnavright {
   float: right;
   text-align: center;
+}
+
+.hidecomments {
+		display:none;
+}
+.hidecomments2 {
+		display:none;
+}
+
+.slidedown {
+	font-size: 35px
+
+}
+.slidedown2 {
+	font-size: 35px
+
+}
+.box {
+	 float: left;
+	 list-style-type: none;
+	 border: 2px solid silver;
+	 background-color:#54013e;
+	 padding-right:792px;
+	}
+.line {
+	border-left: 1397px solid #133D9A;
+    height: 2px;
+}
+
+.subline {
+	border-left: 1397px solid grey;
+    height: 1px;
+
+}
+
+.feedbox {
+	 border: 2px solid silver;
+	 right:400px;
+	 float: right;
+	 background-color: white;
+	 width: 1400px;
+}
+
+#online{
+	font-size: 40px;
+	padding-top: 80px;
+	margin:20px;
+}
+
+#feed {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+#messageicon {
+	position: relative;
+	left: 1550px;
+}
+#notificationicon {
+	position: relative;
+	left: 1200px;
+}
+
+#settings {
+	position: relative;
+	left: 1120px;
+}
+
+.main{
+	width: 100%;
 }
