@@ -12,7 +12,7 @@ function Promoter(promoterName, eventName, eventLocation) {
 // UI logic
 $(document).ready(function() {
   // Promoter event submit button
-  $("#eventSubmitForm").click(function(event) {
+  $("#eventSubmitButton").click(function(event) {
     event.preventDefault();
     // debugger;
     var promoter1Name = $("#promoter1Name").val();
@@ -22,24 +22,5 @@ $(document).ready(function() {
     $("#promoterDisplay").text(promoters[0].promoterName + " is hosting " + promoters[1].eventName + " at " + promoters[2].eventLocation + ". Come one, come all!").show();
     $(".eventTimeline").show();
   });
-
-});
-
-$(document).ready(function(){
-	online = Math.floor(Math.random() * (5000 - 1)) + 10;
-	console.log(online)
-	$("#onlinefriends").text("("+online+")")
-	$("#messageicon").hover(function(){
-		$("ul li ul li").show();
-	});
-
-	$(".slidedown").click(function(){
-		console.log("lol")
-		$(".hidecomments").toggle(1000)
-	});
-	$(".slidedown2").click(function(){
-		console.log("lol")
-		$(".hidecomments2").toggle(1000)
-	});
 
 });
